@@ -13,7 +13,7 @@ const handleChange = (e) => {
 const onFinish = (e) => {
   console.log("==亚马逊授权===",e)
   const clientId = 'amzn1.application-oa2-client.e5370ee623494ed3926d8c28db218b02';
-  const redirectUri = encodeURIComponent('https://your-domain.com/api/amazon/callback');
+  const redirectUri = encodeURIComponent('https://goal-ordexa-backend.vercel.app/api/amazon/callback');
   const state = 'someRandomString'; // 防伪参数（可选）
   const url = `https://sellercentral.amazon.com/apps/authorize/consent?application_id=${clientId}&state=${state}&version=beta&redirect_uri=${redirectUri}`;
   window.location.href = url;
