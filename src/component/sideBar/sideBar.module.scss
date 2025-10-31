@@ -1,0 +1,33 @@
+.sideBarContext{
+    height: 100%;
+    position: relative;
+    .tradeMark{
+        background: #131820;
+        height: 45px;
+        color: white;
+        font-size: 18px;
+        display: flex;
+        justify-content: center; /* 水平居中 */
+        align-items: center;     /* 垂直居中 */
+        img{
+            width: 1.5em;
+            height: 1.5em;
+            margin-right: 5px;
+        }
+    }
+    .menu{
+        height: 100%;
+        li svg{
+            width: 1em; 
+            height: 1em;
+            vertical-align: -0.15em;
+            fill: currentColor;
+            overflow: hidden;
+        }
+    }
+    .indent{
+        position:absolute;
+        top: 90%;
+        margin-left: 10px;
+    }
+}

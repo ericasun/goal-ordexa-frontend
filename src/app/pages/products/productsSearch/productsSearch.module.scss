@@ -1,0 +1,22 @@
+.search{
+    display: flex;
+    .searchCondition{
+        .lineOne, .lineTwo, .lineThree{
+            display: flex;
+            margin: 10px 0px;
+            input {
+                margin-right: 10px;
+            }
+            .createdAt{
+                margin-right: 10px;
+                display: flex;
+            }
+            .searchBtns{
+                button{
+                    margin: 0px 5px;
+                }
+            }
+        }
+    }
+}
+    

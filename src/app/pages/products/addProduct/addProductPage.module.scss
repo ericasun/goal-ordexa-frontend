@@ -1,0 +1,54 @@
+// 基础信息
+.basicInfo{
+    display: flex;
+    .pic{
+         margin-right: 15px;
+    }
+    .lineOne, .lineTwo {
+        display: flex;
+        div {
+            margin-right: 5px;
+            input {
+                width: 250px;
+            }
+        }
+    }
+}
+
+// 产品信息
+.productInfo {
+    display: flex;
+    .productSize, .productWeight, .packageSize, .packageWeight {
+        display: flex;
+        margin-right: 20px;
+    }
+}
+
+// 产品包装信息
+.packageInfo{
+    display: flex;
+    .packingTemplateName, .packageSize{
+        margin-right: 10px;
+    }
+    .packageSize, .packageWeight{
+        display: flex;
+    }
+}
+
+// 外箱信息
+.cartonInfo{
+    .cartonSize, .cartonWeight{
+        display: flex;
+    }
+    .packingTemplateName, .unitsPerCarton, .cartonSize{
+        margin-right: 10px;
+    }
+}
+
+.btns{
+    text-align: center;
+    margin-top: 10px;
+    button{
+        margin-right: 10px;
+    }
+}
